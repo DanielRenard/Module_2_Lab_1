@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <form method="POST" action="http://localhost:3000/profile">
+      <div>
+        <label for="fname">First name:</label>
+        <input type="text" name="fname">
+      </div>
+      <div>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname">
+      </div>
+      <div>
+        <label for="radio_button">Radio Button:</label>
+        <input type="radio" name="radio_button" value="radio_button">
+      </div>
+      <div>
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" name="checkbox" value="checkbox">
+      </div>
+      <div>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <option value="Malibu">Malibu</option>
+          <option value="Gremlin">Gremlin</option>
+          <option value="Pinto">Pinto</option>
+          <option value="El Camino">El Camino</option>
+        </select>
+      </div>
+      <button type="submit">Submit form</button>
+    </form>
+    <header>
+      <nav>
+        <!-- works like <a href="/index.html">Home</a> -->
+        <a href="/form.html">Form</a>
+        <a href="/index.html">Home</a>
+      </nav>
+    </header>
+    <main>
+    </main>
+    <footer>Copyright 2021 &copy;</footer>
+  </body>
+</html>
