@@ -6,6 +6,11 @@
     <keywords></keywords>
     <author></author>
     <viewport></viewport>
+    <style>
+      table, th, td {
+          border: 1px solid black;
+      }
+  </style>  
   </head>
   <body>
     <h1>My HTML learning journey</h1>
@@ -37,6 +42,34 @@
       <li>second place</li>
       <li>third place</li>
     </ol>
+  </article>
+  <article>
+    <h2>Tables</h2>
+  <table>
+    <thead>
+      <tr>
+        <th `colspan="2"`>First header</th>
+        <th>Second header</th>
+      </tr>
+      </thead>
+      <tbody>
+          <tr>
+            <td `rowspan="2"`>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td>Third cell - first row</td>
+          </tr>
+          <tr>
+           <td>Fourth cell - second row</td>
+           <td>Fifth cell - second row</td>
+          <td>Sixth cell - second row</td>
+        </tr>
+        <tr>
+          <td>Seventh cell - third row</td>
+          <td>Eighth cell - third row</td>
+          <td>Ninth cell - third row</td>
+      </tr>
+      </tbody>
+  </table>
   </article>
     <header>
       <nav>
